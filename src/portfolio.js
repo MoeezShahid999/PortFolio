@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KjoM6Mu_7LIwZrC5Hdzlq_XQ03PQTvFD/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZqNTE_GB0LkxQM6moRt3EbGBdeVdg2l4/view?usp=share_link",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -118,7 +118,7 @@ const educationInfo = {
       subHeader: "Intermediate in Computer Science",
       duration: "2014 - 2016",
       desc: "Ranked 3rd in whole batch",
-     
+
     },
     {
       schoolName: "Govt Postgraduate College Samanabad, Faisalabad",
@@ -158,10 +158,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "Kwanso Inc.",
+      companylogo: "K",
+      date: "May 2021 – Present",
+      desc:
+        "Started as a software engineer, promoted to lead a project under senior Project Manager.",
+      color: "#e52e70",
+    },
+    {
       role: "MERN STACK Developer",
       company: "BT Softwarehouse an AI Technologies",
       companylogo: "BT",
-      date: "September 2020 – Present",
+      date: "September 2020 – April 2021",
       desc:
         "My responsibilities in BT Softwarehouse were mainly to develop optimized APIs and provide solutions to a scalable online Taxi Service 'WOW'.",
       color: "blue",
@@ -203,8 +212,45 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+
+
     {
-      image: "https://desenio.co.uk/includes/2017/images/content/desenio-logo.png",
+      image: "https://d3hk6w1rfu80ox.cloudfront.net/media/uploads/listings/kjf0LueUfRgo.jpg",
+      projectName: "College Advisor",
+      projectDesc: "I joined CollegeAdvisor Project in July 2021, since then I am working on this project. Since mid of 2022 I am working as a lead in this project.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://app.collegeadvisor.com/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: "https://realrepp.com/images/main-logo.png",
+      projectName: "RealRepp",
+      projectDesc: "I have developed a chrome extension for RealRepp ATS along with a few UI Components & APIs",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://realrepp.com/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: "data:image/jpeg;base64,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",
+      projectName: "WOW",
+      projectDesc: "I developed several APIs for Website/Admin Panel and both the mobile appplications of this amazing project",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://wowets.com/",
+        },
+      ],
+    },
+    {
+      image: "https://i.pinimg.com/originals/d7/f6/6c/d7f66cab7ea016ccbdfc6d8b107a0059.jpg",
       projectName: "Desenio",
       projectDesc: "I have developed the base of this project including drag-and-drop and fetching products from woocommerce API",
       footerLink: [
@@ -215,17 +261,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ],
     },
-    {
-      image: "https://wowetphoto.s3-ap-southeast-1.amazonaws.com/images/Logo15.png",
-      projectName: "WOW",
-      projectDesc: "I developed several APIs for Website/Admin Panel and both the mobile appplications of this amazing project",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://wowets.com/",
-        },
-      ],
-    },
+
   ],
   display: true, // Set false to hide this section, defaults to true
 };
